@@ -1,0 +1,119 @@
+img {
+    width: 300px;
+    display: block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #98DED9;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161D6F;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 6px solid #C7FFD8;
+    color: #F6F6F6;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#everyJDM{
+    /*max-width: 1200px;*/
+    /*margin: 0 auto 1rem;*/
+    margin-top: 5px;
+    display: flex;
+    /*grid-gap: 1rem;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));*/
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+#JDMCar {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#carDetails {
+    flex-grow: 1;
+}
+
+
+#box {
+    background-color: #F6F6F6;
+    width: 100px;
+    border: 7px solid #C7FFD8;
+    height: auto;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-top: 120px;
+    position: sticky;
+}
+
+.JDM {
+    margin: 50px;
+    background-color: #F6F6F6;
+    border: 6px solid #C7FFD8;
+    border-radius: 0px;
+}
+
+.fav {
+    color: #161D6F;
+    background-color: goldenrod;
+}
+
+.JDM h1 {
+    font-size: 25px;
+}
+
+.JDM button {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #F6F6F6;
+    border: solid #C7FFD8;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #161D6F;
+    width: 100%;
+    font-size: 20px;
+}
+
+.JDM button:hover {
+    background-color: #98DED9;
+    color: #161D6F;
+    border: solid #161D6F;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    #everyJDM {
+        display: inline-block; }
+
+    .JDM {
+        margin: 10px; }
+
+    #JDMCar {
+        position: static;
+        height: fit-content;
+        width: 450px;
+        display: flex;
+        right: revert; }
+
+    #JDMDetails {
+        margin-right: 0; } }
+
+
